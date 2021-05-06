@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/app_bar_add"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="Add"
+        app:actionViewClass="android.widget.ListView"/>
+
+    <item
+        android:title="Delete"
+        android:icon="@android:drawable/ic_menu_delete"
+        android:id="@+id/app_bar_delete"
+        app:actionViewClass="android.widget.ListView"/>
+
+    <item
+        android:title="Upload"
+        android:icon="@android:drawable/ic_menu_upload"
+        android:id="@+id/app_bar_upload"
+        app:actionViewClass="android.widget.ListView"/>
+
+
+    <item
+        android:id="@+id/app_bar_search"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="Search"
+        app:showAsAction="always"
+        app:actionViewClass="androidx.appcompat.widget.SearchView" />
+
+
+
+</menu>
